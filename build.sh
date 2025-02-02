@@ -9,8 +9,7 @@ set_env() {
 build() {
     rm -rf output build
     cmake -S . -B build
-    cmake --build build
-
+    cmake --build build -j 8
 }
 
 set_env
