@@ -12,5 +12,5 @@ build() {
     cmake --build build -j 8
 }
 
-set_env
+# set_env
 build
